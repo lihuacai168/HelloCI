@@ -1,6 +1,7 @@
+name: Up Binary to Assets
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   releases-matrix:
